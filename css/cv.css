@@ -1,0 +1,52 @@
+
+/*HEADER*/
+header {
+    background-color: black; /* Bakgrundsfärg svart */
+    color: white; /* Textfärg vit */
+    text-align: center; /* Centrera text */
+    padding: 1%; /* Utfyllnad 1% */
+    position: fixed; /* Fäst positionen för att hålla den överst på sidan */
+    top: 0; /* Överst på sidan */
+    list-style-type: none; /* Inget punktlista */
+    font-size: large; /* Storlek på texten stor */
+    width: 100%; /* Full bredd */
+    z-index: 1000; /* Z-index för att hålla det över andra element */ 
+}
+
+
+/*MAIN*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally and vertically */
+    padding: 1.5em;
+    margin-top: 3.125em;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.column {
+    box-sizing: border-box; /* Inkludera gränslådan i bredden och höjden */
+    padding: 1.5em; /* Utfyllnad (padding) 1.5em */
+    margin-bottom: 1.5em; /* Marginal nertill 1.5em */
+    background-color: black; /* Bakgrundsfärg svart */
+    width: 100%;
+    
+
+}
+
+/* Frivilligt: Media queries för ytterligare responsivitet */
+@media (min-width: 600px) {
+    .main-container {
+        flex-direction: row; /* Återgå till radlayout för större skärmar */
+        align-items: flex-start; /* Justera innehållets placering till flex-start för större skärmar */
+    }
+
+    .column {
+        width: 50%; /* 50% bredd på större skärmar */
+        margin-bottom: 0; /* Ingen marginal mellan kolumner på större skärmar */
+    }
+}

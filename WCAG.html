@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCAG</title>
+</head>
+<body>
+    <h1><h1>WCAG Webbriktlinjer/tillgänglighetskrav</h1></h1>
+    <ol>
+        <li><h2>All funktionalitet ska kunna användas med tangentbord:</h2></li>
+        <p>jag har testat att navigera själv med shift/tabb tangenten och det funferar utmärkt och sedan trycka enter eller shit för att komma bakåt, 
+        jag har även satt in tabindex="0" i dom större loggorna så det visar vart man är när man tabbar
+        </p>
+        
+        
+        <li><h2>Ange sidans språk i koden</h2></li>
+        <p>all koden är skriven på svenska, och <html lang=”sv”></p>
+        
+        
+        
+        <li><h2>Ange språkförändringar i koden</h2></li>
+        <p>så vitt osom jag vert har ijag inte skrivit något på engelska, om jag skulle ha det så
+        ska man märka upp koden med:
+        <div lang=”en”>Translation in English</div></p>
+        
+        
+        <li><h2>Ange syftet för formulärfält i koden</h2></li>
+        <p>om jag förstår det rättt så ska man vara extra tydlig med t.ex namn, epost och telefon nummer,
+        Customer name: input type=name 
+        Telephone: input type=tel
+        Email address: input type=email.
+        att sätta type=email etc mm och sedan vara övertydlig i vissa fall och skriva man/kvinna mm och har även märkt upp (form) taggar
+        sedan att ha knappar där man kan skicka så man ser att det är ett formulär, eller beskriva det på andra sätt
+        men jag tycker att jag har vart tydlig och uppfyller det kravet.<p>
+        
+        
+        <li><h2>Använd inte enbart färg för att förmedla information</h2></li>
+        <p> för att tänka på de med: färgblindhet, nedsatt syn, att de använder monokrom skärm (monokrom kallas en yta som enbart har en kulörton), ett exempel på detta är att:
+        länkar ska en understryckning samt ha annan storlek och det har jag gjort</p>
+        
+        
+        <li><h2>Använd inte enbart färg för att förmedla information</h2></li>
+        <p>Använd så långt det är möjligt text för att presentera information i stället för text i form av en bild. det har jag uppnåt jag har bara text där det ska vara text, sen har jag en logga med text i 
+        men det kännerjag att man får ha, krav uppnått!</p>
+        
+        
+        <li><h2>Använd tillräckliga kontraster i komponenter och grafik</h2></li>
+        <p>Kontraster är viktiga för att kunna ta del av innehåll på en webbsida eller app. Därför behöver exempelvis ikoner, fokusmarkering, diagram och infografik synas ordentligt mot bakgrunden och intilliggande objekt.
+        jag känner att jag har uppnåt detta, svart med vita kontraster det syns väl</p>
+        
+        
+        <li><h2>Använd tillräcklig kontrast mellan text och bakgrund</h2></li>
+        <p>Bra kontrast mellan text och bakgrund är avgörande för att alla ska kunna ta del av innehållet. detta är också uppnåt med blandannat svarta,vita och blåa kontraster.</p>
+        
+        
+        <li><h2>Beskriv med text allt innehåll som inte är text</h2></li>
+        <p>Personer som använder till exempel skärmläsare och punktdisplay behöver beskrivningar av allt innehåll som inte är text eftersom dessa hjälpmedel inte kan tolka foton, bilder och grafik,
+        detta är uppnåt med textaltnerativ/alt="beskrivning" alla mina bilder har det.</p>
+        
+        
+        <li><h2>Erbjud alternativ till inspelningar som består av enbart ljud eller enbart video</h2></li>
+        <p>Alternativ till inspelat ljud- eller videomaterial kan vara exempelvis manus i textform eller transkribering till en podd eller ljudspår till filmer utan ljud. Alltså:
+        För innehåll som presenteras i form av enbart ljud eller enbart video (utan ljud) måste du tillhandahålla ett alternativ. nu har jag inget som presenteras i enbart ljud eller bild, så därför nehöver jag inte tänka på detta.</p>
+        
+        
+        <li><h2>Erbjud alternativ till komplexa finger- eller pekarrörelser</h2></li>
+        <p>Det ska gå att kunna klicka istället för att exempelvis svajpa, nypa ihop eller dra isär med fingrarna. Annars finns risk att personer med motoriska eller kognitiva nedsättningar inte kan använda all funktionalitet.
+        Se till att det inte enbart är rörelser som skakning eller vridning som gör att personer kan aktivera olika funktioner. Det behöver finnas alternativ, som exempelvis en knapp, för att kunna utföra samma sak.
+        Meny, sökfunktion, innehållsöversikt och A-Ö är exempel på olika sätt att navigera på en webbplats och olika personer föredrar olika sätt. jag har uppnåt det med hjälp av att man kan navigera med tangenter eller mus känner jag, 
+        sen mobilanpasningen kan uppnås på andra sätt det finns t.ex siri</p>
+        
+        
+        <li><h2>Erbjud alternativ till rörelsestyrning</h2></li>
+        <p>Genom att skaka enheten kan en person ångra text som hen skrivit in i ett formulär. Som alternativ kan det även finnas en knapp som erbjuder samma funktion.
+        nu har jag ingen rörelsestryning på min websida så jag känner att det behövöer jag inte tänka på i detta tillfälle.</p>
+        
+        <li><h2>Erbjud flera sätt att navigera</h2></li>
+        <p>Det ska finnas två eller fler sätt att hitta en webbsida på en webbplats (så länge webbsidan inte utgör ett steg i en process eller är ett resultat av en process). jag känner att detta är uppnåt med: en meny på min hemsida
+        sen finns det även crtl+F i de flesta webbläsare (sök alternativ) för att navigera säg fram.</p>
+        
+        
+        <li><h2>Förmedla information, struktur och relationer i koden</h2></li>
+        <p>När du använder rätt html-element för exempelvis rubriker, listor och länkar, hjälper det personer som använder skärmläsare att uppfatta information och struktur.
+        Personer med synnedsättning eller de som använder skärmläsare av annan anledning får lättare att navigera på din webbplats. detta är uppnått så gott jag kanmed en semantiskt kod, t.ex:
+        jag har list taggar, a taggar h tagga rför rubriker mm etc uppbyggnaden är också semantisk, head/header/body/main/footer</p>
+        
+        
+        <li><h2>Ge förslag på hur fel kan rättas till</h2></li>
+        <p>detta gälller då vid input om jag förstått rätt, (felhantering vid inmatning)
+        vilket vi har jobbat en hel del med i C#, dock könner jag att formuläret jag har skapat inte håller för fel hantering av inmatning, jag har gjort required vid inmatning av form</p>
+        
+        
+        <li><h2>Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner</h2></li>
+        <p>Att kunna ångra eller ändra ifylld information är viktigt, inte minst om det som angetts är av exempelvis ekonomisk eller juridisk karaktär. Därför ska det gå att ångra sig, förhandsgranska, korrigera eller bekräfta informationen innan den skickas iväg.
+        Om det finns funktioner som innebär allvarliga konsekvenser, genom att personen:
+        ingår rättsliga åtaganden
+        utför ekonomiska transaktioner
+        skickar in testsvar
+        ändrar eller raderar lagrade data som kontrolleras av personen själv
+        ska dessa funktioner antingen gå att ångra, eller så ska personen ges möjlighet att rätta inmatningsfel eller ges möjlighet att förhandsgranska, korrigera och bekräfta den inmatade informationen.
+        nu har jag inte någon sådan fuktion på min hemsida.</p>
+        
+        
+        <li><h2>Gör det möjligt att hoppa förbi återkommande innehåll</h2></li>
+        <p>som jag förstod det så: Används h-element för snabbare navigering med tabbning, så på det sättet har jag uppnåt det, själva skipp elementenet vet jag inte om jag uppnåt
+        men jag känner inte att det bheovs för du tabbar deig igenom min sida snabbt</p>
+        
+        
+        <li><h2>Gör det möjligt att justera tidsbegränsningar</h2></li>
+        <p>Alla ska ha hinna läsa innehåll, utföra ärenden eller logga in i e-tjänster. Därför behöver det också vara möjligt att justera de eventuella tidsbegräsnigar som finns på webbplatsen.
+        ett enkelt exempel på detta kan ju iståfall vara att om man har vart inaktiv så kommer en ruta som visar med text, samt en röst som säger: du blir utloggad om 2 minuter om du inte gör något.
+        men eftersom jag inte har några e-tjänster på min sida har jag inte behövt tänka på detta.</p>
+        
+        <li><h2>Gör det möjligt att pausa, stänga av eller sänka ljud</h2></li>
+        <p>Ljud som spelas upp på en webbplats ska kunna justeras eller stängas av helt. Detta för att inte störa det en skärmläsare läser upp eller för att underlätta för personer som inte vill att ljud spelas upp, 
+        nu har jag inget ljud på min webblats så jag har inte behövt tänka på detta, men förstörlgit att det är med som tillgänglihetskrav</p>
+        
+        
+        <li><h2>Gör det möjligt att pausa eller stänga av rörelser</h2></li>
+        <p>Blinkningar, rörelser och andra visuella distraktioner ska kunna pausas eller stängas av för att personer ska kunna behålla koncentrationen och fokusera. även här jag inga "visuella distraktioner"
+        så ja ghar inte behövt tänka på detta på min webbsida.</p>
+        
+        
+        <li><h2>Gör det möjligt att ångra klick</h2></li>
+        <p>Möjligheten att ångra ett påbörjat klick är värdefull därför att den minskar risken för att aktivera funktioner av misstag. detta är korrekt på min hemsida då jag har  utfört testet:
+        Leta reda på de funktioner som aktiveras vid nedtryckning av en musknapp.
+        Tryck ned musknappen och kontrollera att det antingen går att flytta pekaren utanför elementet innan musknappen släpps upp eller om det är en dra-släppfunktion,
+         markera och börja dra element. Flytta tillbaka pekaren till startläget (eller utanför målzonen) innan musknappen släpps upp. då jag testat detta och det funkar så är det grönt ljus!</p>
+        
+        <li><h2>Gör det synligt vad som är i fokus</h2></li>
+        <p>En synlig fokusmarkering hjälper personer att se var på webbsidan tangentbordets fokus är placerat. Därför ska alla fokuserbara objekt ha en synlig fokusmarkering när en person tabbar dit med hjälp av tangentbordet.
+        som jag nämnde i punkt 1 så: jag har även satt in tabindex="0" i dom större loggorna så det visar vart man är när man tabbar</p>
+        
+        
+        <li><h2>Gör inte instruktioner beroende av sensoriska kännetecken</h2></li>
+        <p>Det är svårt för en person som använder skärmläsare att förstå en instruktion som ”klicka på knappen till höger”, eller att som icke hörande.
+        Instruktioner för att kunna förstå och hantera innehållet på webbsidor ska inte hänvisa enbart till sensoriska kännetecken som form, storlek eller placering.
+        Instruktioner som använder den här typen av sensoriska kännetecken behöver kompletteras med ytterligare information för att alla ska kunna förstå.
+        Om till exempel en webbundersökning sträcker sig över flera sidor används ofta pil-ikoner för att markera att personen kan klicka sig framåt och bakåt i undersökningen.
+        nu har jag inte en kundeundersökning eller dylikt på min hemsida. sen när det kommer till navigering överlag så har alla webbläsare höger/vänster pil för att ta sig fram eller bak till nästa/föregående sida.</p>
+        
+        
+        <li><h2>Ha en meningsfull fokusordning</h2></li>
+        <p>Innehåll ska presenteras på ett logiskt sätt oavsett om en person kan läsa innehåll, behöver ha skärmläsare eller tabbar sig genom länkar och andra interaktiva objekt på webbsidan.
+        jag skulle säga att när jag ttestar tabba på min sida, så är det i en logisk följd, tabb knappen ifrån vänster till höger ifrån ovan ned, sen om jag använder shift-tabb så blir det tvärtom</p>
+        
+        
+        <li><h2>Ingen kontextförändring vid fokus</h2></li>
+        <p>med intriktnign på:
+        Ett nytt program öppnas.
+        Ett nytt webbläsarfönster eller en ny tabbflik öppnas.
+        Ett formulär skickas in.
+        Fokus flyttas till en annan komponent, här sker det som ska ske, inga plötsliga saker händer eller oförväntade saker som jumpscares eller sådant.</p>
+        
+        
+        <li><h2>Ingen tangentbordsfälla</h2></li>
+        <p>Det ska gå att navigera ifrån varje fokuserbart element med tangentbordet. Om det krävs något annat än Tabb, piltangent eller Escape för att navigera bort ifrån eller flytta fokus från ett element, ska det finnas information om hur man navigerar ifrån dessa element
+        det går att navigera på min hemsida med bara tangentbordet. jag har testat man ser tyldig vart man är med markeringar sedan så står det längst ner till vänster vart man är eller ska</p>
+        
+        
+        <li><h2>Innehåll som visas vid hover eller fokus</h2></li>
+        <p>Det här gäller när innehåll visas vid hover eller fokus
+        Muspekaren måste kunna flyttas över innehållet.
+        Innehållet måste gå att avvisa, så att det inte stör eller blockerar sidans ursprungliga innehåll.
+        Innehållet ska gå att avvisa utan att flytta muspekare eller fokus.
+        Innehållet ska vara synligt tills:
+        Personen tar bort muspekaren eller byter tangentbordsfokus från innehållet eller det element som triggade innehållet.
+        Personen avfärdar innehållet, exempelvis genom ett tangentbordskommando.
+        Innehållet inte längre är giltigt, till exempel om meddelandet “servern är upptagen” blir inaktuellt.
+        jag känner att med både t.ex byte av färg och muspekarbytet så ser man tydligt att man "hovrar" över något  man skulle mäven kunna gärasså en liten hjälp ruta med förklaring dyker upp.</p>
+        
+        
+        <li><h2>Texta ljudet i inspelade filmer</h2></li>
+        <p>Dialog och andra relevant ljud ska textas
+        Ljudet i synkroniserade medier ska ha undertexter (kallas även textbeskrivningar eller textremsa).
+        Textningen ska, förutom dialogen, beskriva andra relevanta ljud om det behövs för att användaren ska kunna tillgodogöra sig innehållet.
+         Till exempel ”en telefon ringer”, ”hunden skäller” eller ”musik spelas, nu har jag ingen dialog ellr andra relevanta ljud så jag har inte behövt tänka på detta.</p>
+        
+        
+        <li><h2>Utför inga oväntade förändringar vid inmatning</h2></li>
+        <p>När en person till exempel redigerar text i ett formulärfält, markerar en kryssruta eller ändrar värde i en flervalsmeny så uppstår det som på programmeringsspråk kallas för ett event (en programhändelse).
+        Ett event kan kopplas till olika åtgärder, som att komponentens bakgrund får en annan färg eller att en hjälptext visas. Men eventet kan också kopplas till mer oväntade förändringar, 
+        som att ett nytt fönster öppnas, att fokus automatiskt förflyttas någon annanstans, eller att ett formulär skickas in.
+        Personen informeras i förväg om att en förändring sker när hen använder komponenten.. jag har gjort en förvarning på min sida på mitt form:</p>
+        
+        
+        
+        <li><h2>Var försiktig med kortkommandon</h2></li>
+        <p>Om det finns en-tangentskommandon ska det gå att stänga av dessa, så att de inte stör ut de kortkommandon som hjälpmedel erbjuder.
+        jag har inga kort-kommandon på denna hemsida.</p>
+        
+        
+        <li><h2>Var konsekvent i navigation</h2></li>
+        <p>Det underlättar för alla om liknande uppgifter kan utföras på samma sätt oavsett var på webbplatsen en befinner sig, och att funktioner för att navigera kommer i samma ordning överallt.
+        navigeringen (menyn på min sida är konsekvent)</p>
+        
+        <li><h2>Visa var ett fel uppstått och beskriv det tydligt</h2></li>
+        <p>Om det finns fält med validering av den data som personen matar in, ska felmeddelanden visas med text och det ska framgå vilket fält som är felande.
+        det gär det på min sida med t.ex required i formuläret</p>
+        
+        <li><h2>Konsekvent benämning</h2></li>
+        <p>Att ha en konsekvent benämning på en och samma funktionalitet på webbplatsen gör det lättare att känna igen för alla. 
+        En Skicka-knapp ska heta Skicka på hela webbplatsen, inte Skicka på vissa sidor och Sänd på andra sidor. Nu har jag bara en skicka knapp så "check" men jag har vart konsekvent med allt på min sida speieltl menyn tycker jag</p>
+        
+        <li><h2>Orsaka inte epileptiska anfall genom blinkande</h2></li>
+        <p>Flimmer och blinkningar kan orsaka epilepsianfall och därför är det viktigt att försöka undvika sådant i mesta möjliga mån. (inget blinkande på mina sior)</p>
+        
+        
+        <li><h2>Presentera innehållet i en meningsfull ordning</h2></li>
+        <p>Oftast, men inte alltid, presenteras innehållet i rätt ordning av exempelvis uppläsande hjälpmedel om det förekommer i rätt ordning i html-koden. 
+        Därför kan ett enkelt snabbtest vara att avaktivera stilmallar´jag har testat med t.ex skärmläsare (narator) windowstangent+ctrl+enter det funkar utmärkt och med narrotar kan man ju välja wjälv vad den ska läsa.</p>
+        
+        
+        <li><h2>Se till att det går att öka avstånd mellan tecken, rader, stycken och ord</h2></li>
+        <p>För att göra det lättare att läsa på webbplatsen ska det vara möjligt att ändra avstånd mellan tecken, ord, rader och stycken utan att någon text skyms eller överlappas av annat innehåll.
+        jag testade det genom att: edge://settings/appearance/fonts/font size/ ökade till large, det funkade p åmin hemsisa, sen funkar det at zooma också så klart.</p>
+        
+        <li><h2>Se till att hjälpmedel kan presentera meddelanden som inte är i fokus</h2></li>
+        <p>om jag förrstår det rätt så: om en person fyller i ett formul'r istället för att bli navigerad till en ny sida, så hade t.ex en ruta kommit upp på samma sida, röststyrning läser upp meddeelanet och personen kan fortsätta göra det hen gör
+        på den sidan hen är utan att att bli "störd" samt att hen ska få ett meddelande, det kan också vara så som uppdaterad varukorg, eller tömd varukorg etc mm.
+        Jag har förvarnat med en text ovanför min knapp på formuläret, jag har även requried i formunläret där det kommer upp en ruta utan att störa</p>
+        
+        
+        <li><h2>Se till att innehållet anpassas efter skärmens riktning</h2></li>
+        <p>Du kan aldrig veta vilken typ av skärm en person använder när hen besöker din webbplats eller hur hen väljer att vända skärmen – liggande eller stående. Därför ska innehåll och funktioner alltid fungera oavsett skärmens riktning.
+        det funkar utmäkrt detta har jag testat genom att välja: inspect på min sida/ toggle device emulation/ sedan vöölja mobil och rotera skärm</p>
+        
+        
+        <li><h2>Se till att komponenter fungerar i hjälpmedel</h2></li>
+        <p>Namnge knappar så att användarna förstår vad som händer när de klickar på dem.
+        Ge knapparna en logisk och användbar placering.
+        Använd lagom många knappar.
+        Presentera inte knappens text enbart som bild. detta känner jag att jag uppfylleer med "skicka" knappen som jag har</p>
+        
+        
+        <li><h2>Se till att text går att förstora</h2></li>
+        <p>det går att zooma 200% på min hemsida och skrolla igenom texten, "check"</p>
+        
+        <li><h2>Se till att text på knappar och kontroller överensstämmer med maskinläsbara namn</h2></li>
+        <p>Exempel: om det finns flera knappar med samma namn: ”Läs mer”. Vilken knapp ska då aktiveras när personen som använder röststyrningn? Risken är att det inte blir den knapp som avsågs. Därför bör olika funktioner ha olika namn.
+        nu har jag bara en knapp "mer info", men om jag hade haft flera så  jag var tvungen att tänka på det.</h4>
+        
+        
+        <li><h2>Skapa en flexibel layout som fungerar att vid förstoring eller på liten skärm</h2></li>
+        <p>jag har tgjort min sida så respinsiv jag kan, genom att använda em och % istälelt för px på ej fasta punkter, och använt media queries vid viss width förminsking</p>
+        
+        <li><h2>Skapa tydliga fältetiketter och ledtexter</h2></li>
+        <p>Varje fält eller interaktiv komponent i ett formulär ska ha en synlig etikett eller ifyllnadsanvisning.
+        Det ska i text tydligt framgå vilka fält som är obligatoriska. jag använt mig av required, fält och jag tycker jag har vart tydlig med mitt formulör med placeholders och namn på vad man sa skriva.</p>
+        
+        
+        <li><h2>Skriv beskrivande rubriker och ledtexter</h2></li>
+        <p>Tydlighet är viktigt för alla, därför ska rubriker och ledtexter göra det lätt att förstå vad en webbsida handlar om. Check, det har jag</p>
+        
+        <li><h2>Skriv beskrivande sidtitlar</h2></li>
+        <p>En beskrivande sidtitel hjälper till att tydliggöra vad en webbsida handlar om. Titel visas dessutom i webbläsarens flikar och även i sökresultat och hjälper personer att snabbt få en uppfattning om innehållet.
+        check det har jag också, t.ex jag har döpt titlanra efter vad sidan handlar om: cv/portfolio/om/hem etc. dessa titlar syns i flikarna.</p>
+        
+        <li><h2>Skriv tydliga länkar</h2></li>
+        <p>jag tycket jag är extra tylig med länkar genom att ha dom i annan färg, understryckna, sammt ha sökvägen i namnet.</p>
+        
+        <li><h2>Syntolka eller erbjud alternativ till videoinspelningar</h2></li>
+        <p>Personer som inte har möjlighet att tillgodogöra sig visuellt innehåll i videoinspelningar behöver få informationen på annat sätt.
+        i dagsläget för att öppnå ett: WCAG 1.2.5 (nivå AA) behövs både syntolkning (ljudbeskrivning) och textbeskrvining.
+        nu hag jar ingen video på min sida.</p>
+        
+        
+        <li><h2>Syntolka videoinspelningar</h2></li>
+        <p>Att syntolka videoinspelningar innebär att att någon i tal beskriver vad som händer i filmen för personer som inte kan se bilden. 
+        Det är viktigt eftersom det hjälper personer med synnedsättning att förstå innehållet i filmen. Som nämnt ovan ska det finnas en syntolkning av en video, nu har jag ingen video på min hemsida</p>
+        
+        
+        <li><h2>Alla tillgänglighetskrav är uppfyllda</h2></li>
+        <p>För att EN 9.6 ska vara uppfyllt måste alla WCAG-krav upp till nivå AA vara uppfyllda. om jag förstptt det ärtt så kräver lagen detta, och jag skulle i stort sätt säga att jag n'stan uppfyller alla krav, dock inte videos för jag har inga. Men detta
+        är en skolupgift så jag har inte vart jätte nooga men jag känner ändå att jag fått med det mesta, sen kan man diskutera på vilken nivå jag hhar uppfyllt kraven.</p>
+        
+        </li><h2>Alternativ till ljud- och videobaserade tjänster</h2></li>
+        <p>nu har jag inga video eller ljud tjänster på min hemsida men:
+        En person med talsvårigheter behöver komma i kontakt med sin handläggare på kommunen. När personen använder en webbtjänst eller en mobil applikation för att ringa till kommunen uppmanas personen att ”med egna ord berätta vad man vill ha hjälp med”.
+        Det finns även ett alternativ att trycka 0 på telefonens knappsats för att navigera i en uppläst meny. På det sättet kan personen knappa sig fram till tjänsten ”talstöd” för att på så sätt kunna kommunicera med handläggaren.</p>
+        
+        <li><h2>Bevara tillgänglighet vid konverteringar</h2></li>
+        <p>exempel på sätt att bevara tillgänglighet vid konvertering
+        Konvertera webbplats till pdf
+        På en webbplats går det att spara ner sidans innehåll som en pdf. Eftersom pdf-formatet har stöd för flera av de tillgänglighetsegenskaper som finns i ett html-dokument ska dessa tillgänglighetsegenskaper bevaras i pdf-dokumentet.
+        Exempel på sådana tillgänglighetsegenskaper är:
+        läsordning
+        rubrikstruktur
+        alternativtext för bilder
+        styckeindelning
+        tabeller (inklusive information om rubrikceller och dataceller). jag tycker att jag vart noga med och har alt= för bilder och har en emantisk struktur öcerlag.</p>
+        
+        <li><h2>Funktioner för video- och röstsamtal ska vara tillgängliga</h2></li>
+        <p> jag har ingen sådan tjänst på min sida men lagen krväer ljudkvalitet: det ska vara: Bildkvalitet, bildhastighet och läppsynk, Indikator vem eller vilka som pratar, Realtidstext som visar vem som skriver
+        </p>
+        
+        
+        <li><h2>Gör funktioner för tillgänglighet lätta att hitta</h2></li>
+        <p>jag tycker det är overkill att göra till Labb1, men hade jag gjort en sida till ett företag så hade jag absolut gjort detta:
+        lyssnafunktion
+        dolda undertexter till video
+        syntolkning av video
+        lättläst version
+        teckenspråkstolkad version
+        transkribering av poddinspelning
+        funktion för att anpassa textens utformning
+        funktion för att anpassa färgskala. ett exempel på detta kan vara: En person med intellektuell funktionsnedsättning besöker din webbplats. På webbplatsen finns en funktion där webbsidans innehåll kan visas som lättläst svenska.
+         Funktionen för att aktivera den lättlästa texten ska vara lätt att hitta och förstå, till exempel genom en knapptext som personen förstår.</p>
+        
+        <li><h2>Gör inte användning av tjänster beroende av endast en biometrisk egenskap</h2></li>
+        <p>När en webbplats eller app använder biometriska egenskaper för identifiering ska en person erbjudas olika metoder för identifiering. Enbart fingeravtryck eller igenkänning av personens ansikte är ofta otillräckligt.
+        exempel:Biometriska egenskaper som kan användas är till exempel:
+        fingeravtryck
+        iris – ögats regnbågshinna
+        retina – ögats näthinna
+        ansiktsigenkänning
+        röstigenkänning
+        handgeometri
+        handådror
+        tangentbordstryckningsdynamik (hur en person skriver på ett tangentbord). så alltså fler än två, men nu har jag ine biometrisk egenskap på min hemsida.</p>
+        
+        <li><h2>Säkerställ tillgänglighet i supporttjänster</h2></li>
+        <p>När en person med behov av hjälpmedel får problem med att använda till exempel en webbplats, ska personen kunna vända sig till en supportperson för att få hjälp med hur webbplatsen ska användas.
+        detta käns mer optimalt för ettablerad företags-sida</p>
+        
+        <li><h2>Teknik för hantering av undertexter</h2></li>
+        <p>Inspelad video ska erbjuda tillgängliga undertexter så att alla som tar del av videon även kan ta del av informationen/innehållet i videon. 
+        Undertexterna ska vara utformade så att de är enkla att aktivera och ta del av, till exempel med hjälpmedel eller genom att undertexten kan bli uppläst, fillt förstörligt menjag har ingen video på min hemsida så jag behoer ite tänka på det i detta tillfälle.</p>
+        
+        <li><h2>Teknik för syntolkning</h2></li>
+        <p>Därför behövs syntolkning
+        Personer som har en synnedsättning eller vissa intellektuella funktionsnedsättningar, kan av olika skäl inte förstå eller se allt som visas i en film
+        När IKT-system visar video med synkroniserat ljud ska det finnas en funktion för att spela upp syntolkning på det primära ljudspåret
+        Där IKT-system huvudsakligen visar video med ljudinnehåll ska användaren erbjudas användarkontroller för att aktivera undertextning och syntolkning.
+        jag har ingen video på mi nhemsida därfr har jag inte gjort det.</p>	
+        
+        
+        <li><h2>Tillgänglig produktdokumentation</h2></li>
+        <p>Om webbplatsen eller appen är kompatibel med en persons hjälpmedel ska personen kunna ta reda på genom att läsa den tillgänglighetsredogörelse som alla offentliga aktörer ska tillhandahålla.
+        eftersom jag inte är en offentlig aktör har jag inte tillämpat det, men om jag förwtår det rätt så: ska en  Produktdokumentation skapas, antingen på sidan eller en länk på sidan som hänvisar till ett anan fönster,
+        där det ska  listas och förklara hur en person använder IKT-systemets funktioner för tillgänglighet och kompatibilitet.</p>
+        
+        
+        <li><h2>Se till att funktioner för redigering ger stöd för tillgänglighet</h2></li>
+        <p>Verktyg som används för att publicera eller redigera innehåll på webben ska vara användbara för personer med funktionsnedsättning. Ett exempel för hur olika funktioner för redigering kan ge stöd för tillgänglighet
+        Kommentarsfunktion: På din webbplats finns en kommentarsfunktion där det ska vara möjligt för alla besökare att lämna en kommentar. 
+        Om det finns möjlighet att formatera texten, till exempel fetstil, rubriknivåer och skapa länkar, så ska detta göras på ett sätt så att det publicerade materialet uppfyller kraven i EN 301 549. nu har jag inte ens ån funktion och tycketer
+        inte att det krävs för denna skoluppgift, men jag ser varför den behövs</p>
+        
+        
+        <li><h2>Se till att koden validerar</h2></li>
+        <p>WCAG 4.1.1 Parsning ska alltid betraktas som godkänt, oavsett vad ett valideringstest visar. av alla webbrriktlinjer förrstod jag denna minst, 
+        (Digg har därför slutat granska kodvalidering i samband med tillsyn av offentliga aktörers digitala tjänster.)</p>
+        
+        
+        <li><h2>Ge webbplatsen en god läsbarhet</h2></li>
+        <p>Typsnittet och luftigheten i texten påverkar webbplatsens läsbarhet. Texten bör vara så stor att den är bekväm att läsa. Alltför liten text, stora textmassor och många olika typsnitt gör texterna svårlästa.
+        det tycket jag att jag har, min sida är lättläst.</p>
+        
+        <li><h2>Gör länkar, klickbara ytor och menyer användbara för alla</h2></li>
+        <p>Klickbara ytor, till exempel textlänkar, bildobjekt och knappar, spelar en viktig roll på webben. Gör det enkelt för alla att upptäcka och använda dessa.
+        det har jag gjrot, check!</p>
+
+        <a href="index.html"><button>Tillbaka hem</button></a>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    position: fixed;
+    top: 0;
+    list-style-type:none ;
+    font-size: large;
+    width:100%;
+}
+
+li{
+    display: inline-block;
+    margin-left: 2%; /* Add right margin to create space between logo and list items */
+}
+
+li a{
+    display:block;
+    color:white;
+    padding:25% 3%;
+    text-decoration:none ;
+}
+
+li.active a{
+    color:deepskyblue;
+}
+
+li a:hover{
+    color:cornflowerblue;
+}
+
+/*header logo Hover*/
+
+.logo:hover{
+    transform:scale(.9);
+}
+.Zlogo:hover{
+    transform:scale(.9);
+}
+.Plogo:hover{
+    transform:scale(.9);
+}
+
+
+.logo{
+    height: auto;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.Zlogo {
+    position:absolute; left: 2%; top:7%;
+    height: auto;
+    cursor: pointer;
+    transition: transform .8s;
+
+}
+.Plogo {
+    position:absolute; right: 5%; top:28%;
+    height: auto;
+    cursor: pointer;
+    transition: transform .8s;
+
+}
+/*______________________________*/
+
+/*MAIN*/
+
+
+.background-image {
+    height: 100vh; /* Adjust as needed, subtracting total padding from header and footer */
+    overflow: hidden; /* Ensure the content doesn't overflow the container */
+    
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the entire image is visible within the container without cropping */
+}
+
+
+footer {
+    background-color:black;
+    color:deepskyblue;
+    text-align: center;
+    padding: 1%;
+    position: fixed;
+    bottom: 0;
+    font-size:xx-small;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(51, 215, 163);
+    font-size:12px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

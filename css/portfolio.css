@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+   
+   main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Set to full viewport height */
+        margin-left: 100px; /* Move content to the right */
+        background-color:black;
+}
+
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 50px;
+}
+/* Style the modal container */
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Style the modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 5px solid gray;
+    max-width: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-content ul {
+    list-style: none;
+    padding: 0; /* Remove default padding on the ul */
+}
+
+.modal-content li {
+    margin-bottom: 5px; /* Add margin between list items */
+}
+
+.modal-content a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .modal-content {
+        max-width: 90%; /* Adjust the max-width for smaller screens */
+    }
+}
+
+.modal-content ul li {
+    width: 100%;
+    display: block;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image within its container */
+}
+
+.modal-content a {
+    color: #007BFF; /* Set the color for links */
+    text-decoration: none;
+    margin: 0; /* Remove default margin on links */
+}
+
+.modal-content a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+.modal-content ul {
+    list-style: none;
+    color: black; /* Set the color to black */
+    /* Add other styles as needed */
+    
+}
+
+
+
+/* Style the close button */
+.close {
+    color: deepskyblue;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    text-align: center;
+    caret-color: transparent; /*hide blinking cursor */
+}
+
+.close:hover,
+.close:focus {
+    color: lightblue;
+}
+
+/* Style the open modal link */
+.open-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative; top:0; left: 3.2%;
+}
+
+.open-btn:hover {
+    background-color: #515151;
+}
+
+/* Show modal when the URL has #myModal */
+.modal-container:target {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    color:whitesmoke;
+}
+
+
+
+        
+    
